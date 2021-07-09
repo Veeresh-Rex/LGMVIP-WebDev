@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* Header Start */
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('/assets/img/carousel4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header .navtext {
+    color: #fff;
+}
+
+.header span>h1 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.header .navbar-nav {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.header ul li {
+    cursor: pointer;
+    color: #fff;
+}
+
+.header ul li .active-link {
+    color: yellow;
+}
+
+.header ul .nav-item {
+    color: #fff !important;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.text-bg {
+    width: 30%;
+    color: white;
+    position: absolute;
+    top: 30%;
+    margin-left: 1.5rem;
+}
+
+.text-bg .btnnewcolor {
+    background-color: #457b9d !important;
+}
+
+.text-bg .btnnewcolor:hover {
+    background-color: #e63946 !important;
+}
+
+.text-bg h1 {
+    font-weight: 600;
+}
+
+.text-bg p {
+    margin-top: 2rem;
+}
+
+.headbtn {
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    background-color: #f77f00;
+}
+
+.headbtn:hover {
+    background-color: #5f27cd;
+    color: white;
+}
+
+
+/* Header End */
+
+
+/* Welcome start */
+
+.welcome-text {
+    text-align: center;
+    color: black;
+}
+
+.welcome-about p {
+    width: 40%;
+    opacity: 0.6;
+}
+
+.welcome-about {
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    left: 8rem;
+    margin-left: 10px;
+}
+
+.umbrella {
+    position: relative;
+    left: 28rem;
+}
+
+.welcome-about img {
+    width: 10rem;
+    height: 10rem;
+    margin-top: -18px;
+}
+
+.welcome-feature .feature-text {
+    margin-top: 15px;
+    width: 100%;
+    height: 54%;
+    text-align: center;
+    opacity: .6;
+}
+
+.feature-list {
+    text-align: center;
+    margin-right: -20px;
+}
+
+.feature-list h3 {
+    color: #5f27cd;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.feature-list .icon-feature i {
+    margin-top: 20px;
+    border: 10px solid #5f27cd;
+    border-radius: 50%;
+    background-color: #5f27cd;
+    color: white;
+}
+
+
+/* Welcome End */
+
+
+/* Project start */
+
+.project {
+    margin: 0px;
+    padding: 0px;
+}
+
+.project .col>img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.project .card-project {
+    background-color: hsla(210, 8%, 79%, 0.863);
+    padding-left: 40px;
+    padding-top: 40px;
+    height: 15rem;
+}
+
+.project .card-project:hover {
+    background-color: #f4a261;
+}
+
+.card-project h3 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.project .card-project p {
+    font-size: 15px;
+    opacity: .6;
+}
+
+.project .card-project button {
+    text-transform: uppercase;
+    width: 9rem !important;
+    height: 3rem !important;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+}
+
+
+/* Project End */
+
+
+/* Pricing Start */
+
+.pricing .plan {
+    text-align: center;
+    border-right: 2px solid hsla(216, 4%, 47%, 0.863);
+    /* border-left: 2px solid hsla(216, 4%, 47%, 0.863); */
+}
+
+.pricing .row :hover {
+    background-color: hsla(210, 8%, 79%, 0.863);
+}
+
+.pricing .Price-plan h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.pricing .plan .buybtn {
+    width: 5rem;
+    font-weight: 600;
+    height: 2rem;
+    margin-bottom: 25px;
+    border: none;
+    background-color: #f77f00;
+}
+
+.pricing .plan .buybtn:hover {
+    background-color: #5f27cd;
+    color: white;
+}
+
+.pricing .plan .price-feature {
+    font-size: 1rem;
+}
+
+.pricing .noborder {
+    border: none;
+}
+
+.pricing .plan .price-feature p:first-child {
+    opacity: .6;
+}
+
+
+/* Video project start */
+
+.video {
+    width: 100%;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: #5f27cd;
+}
+
+.video .videoproject .titlevideo {
+    padding-top: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.video .videoproject .ytvideo {
+    margin-top: 60px;
+    margin-left: 4rem;
+    padding-bottom: 60px;
+}
+
+
+/* Video Project End */
+
+
+/* Team Start */
+
+.team {
+    width: 100%;
+    margin-top: 38px;
+}
+
+.team h1 {
+    text-align: center;
+    color: black;
+}
+
+.team .team-people {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.team .team-people .person {
+    width: 10rem;
+    margin-left: 8rem;
+    opacity: 1;
+    display: block;
+    position: relative;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.team .team-people .person:after {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.team .team-people .person img {
+    border: .1px solid white;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.person ul {
+    width: 10rem;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 18%;
+    display: block;
+    opacity: 0;
+    left: 4%;
+}
+
+.person ul li {
+    cursor: pointer;
+    padding: 7px;
+    margin: 3px;
+    display: inline-block;
+    color: #5f27cd;
+}
+
+.person:hover:after {
+    opacity: 1;
+}
+
+.person:hover ul {
+    opacity: 1;
+}
+
+.team-people p {
+    opacity: .6;
+}
+
+
+/* Team End */
+
+
+/* Life in Zippy Start */
+
+.life {
+    width: 100%;
+    margin-top: 100px;
+    background-color: hsla(210, 8%, 79%, 0.863);
+}
+
+.life .row h1 {
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.js .slider-single>div:nth-child(1n+2) {
+    display: none
+}
+
+.js .slider-single.slick-initialized>div:nth-child(1n+2) {
+    display: block
+}
+
+.slider-single img {
+    width: 500px;
+    height: 500px;
+}
+
+.slider-nav img {
+    width: 20px;
+    height: 100px;
+    margin-left: 5px;
+}
+
+.small-centered {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.slider-nav {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+
+/* Life in Zippy End */
+
+
+/* News Letter Start */
+
+.newsletter {
+    min-height: 15vh;
+    width: 100%;
+    background-image: url('/assets/img/news.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.newsletter .row h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.newsletter input {
+    padding: 11px;
+    border: 1px solid #a4b7c4;
+}
+
+.newsletter .inputemail {
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.newsletter input:focus {
+    outline: none;
+}
+
+
+/* Newsletter End */
+
+
+/* Blog Start */
+
+.blog .blog-img img {
+    width: 100%;
+    height: 13rem;
+}
+
+.blog .blog-body {
+    margin-top: 20px;
+}
+
+.blog .blog-time {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    opacity: .6;
+}
+
+
+/* Blog End */
+
+
+/* Contact Start */
+
+.contact {
+    margin-top: 50px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.contact .contactdetail {
+    background-color: #f77f00;
+    height: 500px;
+}
+
+.contact .contactdetail h1 {
+    margin-left: 30px;
+}
+
+.contact .contact-form form input {
+    margin-left: 30px;
+    border: 1px solid #a4b7c4;
+    padding: 10px;
+    margin-top: 5px;
+    width: 25rem;
+}
+
+.contact .contact-form form input:focus {
+    outline: none;
+}
+
+.contact .contact-form form textarea {
+    margin-left: 30px;
+    padding: 10px;
+    margin-top: 5px;
+    width: 25rem;
+    border: 1px solid #a4b7c4;
+    resize: none;
+}
+
+.contact .contact-form form textarea:focus {
+    outline: none;
+}
+
+.contact-form form button {
+    border: none;
+    background-color: #5f27cd;
+    font-size: 1rem;
+    width: 25rem;
+    margin-left: 30px;
+    padding: 13px;
+    margin-top: 5px;
+}
+
+
+/* Contact End */
+
+
+/* Footer */
+
+.footer {
+    margin-top: 50px;
+}
+
+.footer span {
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer .office address {
+    opacity: .6;
+}
+
+.footer .info .contactdetails {
+    opacity: .6;
+}
+
+.footer .social-media i {
+    cursor: pointer;
+    padding-left: 10px;
+}
